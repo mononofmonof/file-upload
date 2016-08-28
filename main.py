@@ -22,7 +22,8 @@ class FtpUp(FtpCause):
 			passwd.destroy()
 			login_acc.destroy()
 			dec_before.destroy()
-
+			
+			buff.set('')
 			up_acc.pack(padx='10', pady='10')
 			dec_after.pack(pady='10')
 
