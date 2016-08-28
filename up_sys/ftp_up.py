@@ -8,13 +8,13 @@ class FtpCause:
 		self.ftp = ftp
 
 	@abstractmethod
-	def serv_login(self):
+	def serv_login(self, event):
 		pass
 
 	@abstractmethod
-	def serv_upload(self):
+	def serv_upload(self, event):
 		pass
 
 	@abstractmethod
-	def serv_deleate(self):
+	def serv_deleate(self, event):
 		pass
